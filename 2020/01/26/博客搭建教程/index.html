@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Hexo</title>
+  <title>博客搭建教程 | Hexo</title>
   <meta name="keywords" content="">
-  <meta name="description" content="Hexo">
+  <meta name="description" content="博客搭建教程 | Hexo">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:type" content="article">
@@ -52,7 +52,7 @@
 </div>
 
 <body>
-<aside class="nav mobile">
+<aside class="nav">
     <div class="nav-left">
         <a href="/" class="avatar_target">
     <img class="avatar" src="/img/avatar.jpg" />
@@ -285,12 +285,43 @@
         </div>
     </div>
 </aside>
-<div class="post index">
+<div class="post">
     <div class="pjax">
-        <article class="index">
-            <div class="toc-ref">
+        <article id="post-博客搭建教程" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Why-Blog"><span class="toc-text">Why Blog</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#对博客的理解"><span class="toc-text">对博客的理解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#关于叶落阁"><span class="toc-text">关于叶落阁</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#博客平台"><span class="toc-text">博客平台</span></a></li></ol></li></ol>
+        <h1 class="article-title">博客搭建教程</h1>
+    
+    <div class="article-meta">
+        
+        
+        
+        
+    </div>
+    <div class="article-meta">
+        
+        创建时间:<time class="date" title='更新时间: 2020-01-26 21:16:39'>2020-01-26 21:14</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        
+        <span id="busuanzi_container_page_pv">
+            阅读:<span id="busuanzi_value_page_pv">
+                <span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </span>
+        </span>
+        
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#我的博客采用hexo-GitHub的方式来搭建的"><span class="toc-text">我的博客采用hexo+GitHub的方式来搭建的</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#几个概念的介绍"><span class="toc-text">几个概念的介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#hexo概念介绍"><span class="toc-text">hexo概念介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#GitHub介绍"><span class="toc-text">GitHub介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#GitHub-Pages"><span class="toc-text">GitHub Pages</span></a></li></ol></li></ol></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -303,36 +334,69 @@
     }
 </style>
 </div>
-            <h1 id="Why-Blog"><a href="#Why-Blog" class="headerlink" title="Why Blog"></a>Why Blog</h1><h2 id="对博客的理解"><a href="#对博客的理解" class="headerlink" title="对博客的理解"></a>对博客的理解</h2><p>喜欢写Blog的人，会经历三个阶段。</p>
-<blockquote>
-<p>第一阶段，刚接触Blog，觉得很新鲜，试着选择一个免费空间来写。</p>
-</blockquote>
-<blockquote>
-<p>第二阶段，发现免费空间限制太多，就自己购买域名和空间，搭建独立博客。</p>
-</blockquote>
-<blockquote>
-<p>第三阶段，觉得独立博客的管理太麻烦，最好在保留控制权的前提下，让别人来管，自己只负责写文章。</p>
-</blockquote>
-<p>我们每个人的在网络上产生的数据越来越多，这些信息是我们在互联网上存在过的痕迹，值得我们认真对待。但是它们被分散分布在各个网站上。很多时候我们很难将它们聚合在一起，而且各个网站的信息排布方式也没有办法自由控制，所以我们需要一个可以由自己主宰的空间——博客。</p>
-<p>通过博客，我们可以记录自己的生活和成长的轨迹。它不像 Twitter 那样碎片化，也不像 Facebook 那样关系化，它是私人的空间。</p>
-<h2 id="关于叶落阁"><a href="#关于叶落阁" class="headerlink" title="关于叶落阁"></a>关于叶落阁</h2><p><strong>叶落阁</strong> 是阿杰（杨玉杰）的个人站。</p>
-<p>到目前为止已经写了<code class="article_number"></code>篇文章， 共<code class="site_word_count"></code>字。</p>
-<p>本站访问人数：<code class="site_uv"></code>人次 ， 访问量：<code class="site_pv"></code>次</p>
-<h2 id="博客平台"><a href="#博客平台" class="headerlink" title="博客平台"></a>博客平台</h2><p>这个博客通过 <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 生成，部署在 <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>，主题 <a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank" rel="noopener">3-hexo</a> 已经在github上开源</p>
-<p>主要功能：</p>
-<ul>
-<li>搜索支持文章标题、标签(#标签)、作者(@作者)</li>
-<li>pad/手机等移动端适配</li>
-<li>页面全局快捷键 <a href='http://yelog.org/2017/03/24/3-hexo-shortcuts/' target="_blank" rel="noopener">3-hexo快捷键说明</a></li>
-</ul>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>title: this is my first blog</p>
+<h1 id="我的博客采用hexo-GitHub的方式来搭建的"><a href="#我的博客采用hexo-GitHub的方式来搭建的" class="headerlink" title="我的博客采用hexo+GitHub的方式来搭建的"></a>我的博客采用hexo+GitHub的方式来搭建的</h1><h2 id="几个概念的介绍"><a href="#几个概念的介绍" class="headerlink" title="几个概念的介绍"></a>几个概念的介绍</h2><h3 id="hexo概念介绍"><a href="#hexo概念介绍" class="headerlink" title="hexo概念介绍"></a>hexo概念介绍</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</span><br><span class="line"></span><br><span class="line">Hexo是一个基于Node.js的静态博客框架，依赖少易于安装使用，可以方便的生成静态网页托管在GitHub和Heroku上，是搭建博客的首选框架</span><br></pre></td></tr></table></figure>
 
-        </article>
-        
-        <p>
-            <a  class="dashang" onclick="dashangToggle()">赏</a>
-        </p>
-        
-        
+<p>官网：<a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">https://hexo.io/zh-cn/</a></p>
+<h3 id="GitHub介绍"><a href="#GitHub介绍" class="headerlink" title="GitHub介绍"></a>GitHub介绍</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GitHub是一个代码托管网站和社交编程网站</span><br></pre></td></tr></table></figure>
+
+<h3 id="GitHub-Pages"><a href="#GitHub-Pages" class="headerlink" title="GitHub Pages"></a>GitHub Pages</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GitHub Pages是用来托管 GitHub 上静态网页的免费站点。</span><br></pre></td></tr></table></figure>
+
+<p>==说通俗一点：<br>利用Hexo和GithubPages搭建博客，实际上就是利用Hexo在本地（你的电脑上）生成一个博客站点，然后利用网络将它传输到Github上进行拷贝和备份。再由Github提供的GithubPages服务将博客部署到网上，这样你的博客就可以作为一个独立的站点被别人浏览（正式上线）。同时你也可以在Github上管理你的博客。==</p>
+<p>开始搭建<br>一：环境搭建<br>安装git<br>请参考git安装详细教程<br>安装node.js<br>请参考node.js安装教程<br>安装Hexo</p>
+<p>获取个人网站域名<br>GitHub创建个人仓库<br>推送网站<br>绑定域名</p>
+<p>二：安装hexo<br>1.hexo就是我们用于搭建个人博客的框架，这个时候我们需要在我们本地文件夹中创建一个用于博客管理的文件夹，我命名为xuqiaocode,本地F:\xuqiaocode<br>hexo框架与以后写作发布的网页等都会保存在这个文件夹中，创建好之后进入文件夹<br>右键，点击git  Bash Here<br>2.输入命令：安装hexo<br>npm install -g hexo-cli</p>
+<p>3.初始化博客hexo init<br>输入命令：在bolg文件下初始化博客<br>hexo init bolg<br>注意，这些命令都作用于我们刚刚新建的xuqiaocode文件夹中</p>
+<p>4.进入bolg文件下通过命令检测一下我们网站的雏形，按顺序输入以下三条命令：</p>
+<p>hexo new hello Hexo    //新建一篇名为”hello Hexo”的博客<br>hexo g                 //生成静态文件<br>hexo s                 //本地部署预览<br>此时，我们的网站已经初步成型，可以输入 localhost:4000 访问。</p>
+<p>三：将hexo与gitHub关联</p>
+<p>GitHub创建个人仓库<br>1.生成shh秘钥<br>我的秘钥应该是以前有弄过，所以在我的电脑文件夹C:\Users\鸡哥的.ssh\id_rsa.pub可以看到</p>
+<p>2.登陆GitHub在设置中找到SSH and GPG keys添加公钥:</p>
+<p>3.测试是否成功：<br>ssh -T <a href="mailto:git@github.com">git@github.com</a> # 注意邮箱地址不用改<br>如果提示：Are you sure you want to continue connecting (yes/no)?<br>输入yes<br>返回：Hi jfxuan! You’ve successfully authenticated, but GitHub does not provide shell access.<br>看到这个信息说明SSH已配置成功！</p>
+<p>注意：项目名称为 用户名.github.io ，假如我的Github用户名是xuqiaoZzz，则创建的项目名为 xuqiaozzz.github.io，选择public公开：</p>
+<p>四：推送网站<br>1.配置文件介绍<br>上面我们只是在本地预览，接下来要做的就是推送网站，也就是发布网站，让我们的网站在互联网上能被访问到。在设置之前，我们先来看看blog根目录里的<strong>_config.yml文件</strong>，是我们的站点配置文件</p>
+<p>2.登陆GitHub</p>
+<p>3.配置hexo：<br>编辑 _config.yml文件<br>这里面都是一些全局配置，每个参数的意思都比较简单明了；<br>需要特别注意的地方是，冒号后面必须有一个空格，否则可能会出问题；</p>
+<p>repo就是GitHub上面创建的博客项目；<br>repo后面填写的一定要和GitHub存储库上面的相吻合：</p>
+<p>4.输入命令：<br>hexo clean //清理静态文件<br>hexo g //生成静态文件<br>hexo d //部署<br>这三条是我们日后写博客经常要用到的命令，其中第三条的 hexo d 就是部署网站命令，d是deploy的缩写，对应到我们刚刚在站点配置文件中的修改。<br>完成后打开浏览器，在地址栏输入你的放置个人网站的仓库路径，即xxxx.github.io，其中xxxx表示我们的用户名。当然这里有个前提，你是按照用户名.github.io的形式来命名你的仓库。<br>你就会发现你的博客已经上线了，可以在网络上被访问了。</p>
+<p>如果hexo d出现报错：“ERROR Deployer not found: git”<br>npm install –save hexo-deployer-git</p>
+<p>浏览器访问：<br>博客的网站就是：xuqiaozzz.github.io</p>
+
+      
+       <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 jaytp@qq.com </span>
+    </div>
+</article>
+
+
+<p>
+    <a  class="dashang" onclick="dashangToggle()">赏</a>
+</p>
+
+
+<div class="article_copyright">
+    <p><span class="copy-title">文章标题:</span>博客搭建教程</p>
+    
+    <p><span class="copy-title">本文作者:</span><a  title="John Doe">John Doe</a></p>
+    <p><span class="copy-title">发布时间:</span>2020-01-26, 21:14:51</p>
+    <p><span class="copy-title">最后更新:</span>2020-01-26, 21:16:39</p>
+    <span class="copy-title">原始链接:</span><a class="post-url" href="/2020/01/26/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/" title="博客搭建教程">http://yoursite.com/2020/01/26/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</a>
+    <p>
+        <span class="copy-title">版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
+    </p>
+</div>
+
+
+
+
+
+    
+
+
+
+
     </div>
     <div class="copyright">
         <p class="footer-entry">©2016-2019 Yelog</p>
